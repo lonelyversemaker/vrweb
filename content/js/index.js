@@ -159,7 +159,8 @@ function loadScene(id) {
     image: scenes[id].image,
     preview: scenes[id].preview,
     is_stereo: false,
-    is_autopan_off: true
+    is_autopan_off: true,
+	is_debug: true
   });
 
   // Add all the hotspots for the scene
